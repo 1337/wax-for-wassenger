@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Wax for Wassenger",
+	"version": "1.0",
+	"description": "Please for the love of who's out there, stop",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
